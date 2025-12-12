@@ -3,20 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <title>Evaluación Parcial 3</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .contenedor {
+            text-align: center;
+            background-color: #f7f7f7;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            width: 350px;
+        }
+
+        h1 {
+            font-size: 26px;
+            margin-bottom: 10px;
+        }
+
+        .alumno {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: block;
+            width: 80%;
+            margin: 10px auto;
+            padding: 12px;
+            font-size: 18px;
+            border-radius: 8px;
+            border: 2px solid #2ecc71;
+            text-decoration: none;
+            color: #2ecc71;
+            font-weight: bold;
+            transition: 0.2s;
+        }
+
+        .btn:hover {
+            background-color: #2ecc71;
+            color: white;
+        }
+
+        .btn-sec {
+            border-color: #6c5ce7;
+            color: #6c5ce7;
+        }
+
+        .btn-sec:hover {
+            background-color: #6c5ce7;
+            color: white;
+        }
+    </style>
 </head>
 <body>
 
-    <h2>EVALUACIÓN PARCIAL 3</h2>
+    <div class="contenedor">
+        <h1>EVALUACIÓN PARCIAL 3</h1>
 
-    <p>ALUMNO: STEPHANIE ALONDRA PÉREZ DE LOS RÍOS</p>
+        <p class="alumno">STEPHANIE ALONDRA PÉREZ DE LOS RÍOS</p>
 
-    <a href="https://www.figma.com/make/24RQTJnYPSQ2W65R3nakpX/WhatsApp-Bubble-Design?node-id=0-1&p=f&t=YF1GfmojD5fnJj9C-0&fullscreen=1"><button>INTERFÁZ</button>
-    <br><br></a>
-
-    <button onclick="location.href='graficas.html'">GRÁFICAS</button>
-    <br><br>
-
-    <button onclick="location.href='index.html'">REGRESAR AL MENÚ PRINCIPAL</button>
+        <a class="btn" href="https://www.figma.com/make/24RQTJnYPSQ2W65R3nakpX/WhatsApp-Bubble-Design?node-id=0-1&p=f&t=YF1GfmojD5fnJj9C-0&fullscreen=1">INTERFÁZ</a>
+        <a class="btn" href="grafica.html">GRÁFICAS</a>
+        <a class="btn btn-sec" href="index.html">REGRESAR AL MENÚ PRINCIPAL</a>
+    </div>
 
 </body>
 </html>
